@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/icons.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact Support</title>
+
+</head>
+<body>
+    <header>
+        <h1>Space Exploration</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="early-missions.html">Early Missions</a>
+        <a href="apollo.html">Apollo Program</a>
+        <a href="space-shuttle.html">Space Shuttle</a>
+        <a href="iss.html">ISS</a>
+        <a href="mars-exploration.html">Mars Exploration</a>
+        <a href="private-space.html">Private Space</a>
+        <a href="unmanned-missions.html">Unmanned Missions</a>
+        <a href="future-space.html">Future</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <img src="../images/background.png" alt="Space Background" class="background-image">
+        <div class="contact-form">
+            <h1>Contact Support</h1>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your phone number" required>
+
+                <label for="problem-type">Type of Problem</label>
+                <select id="problem-type" name="problem-type" required>
+                    <option value="" disabled selected>Select your issue</option>
+                    <option value="technical">Technical Support</option>
+                    <option value="billing">Billing Issues</option>
+                    <option value="account">Account Issues</option>
+                    <option value="feedback">General Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="details">Details</label>
+                <textarea id="details" name="details" placeholder="Describe your issue here..." required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

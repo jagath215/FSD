@@ -1,0 +1,48 @@
+main > h1{
+    font-size: 3em;
+}
+.main-box{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-box > *{
+    color: black;
+}
+
+.org-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 20px 0; 
+}
+
+ul{
+    list-style-type: disc;
+    margin-left: 20px;
+   
+}
+li{
+    margin-bottom: 5px;
+}
+
+.org {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+    width: 24%; 
+    margin: 10px; 
+    padding: 20px; 
+    text-align: center;
+}
+
+.org-logo {
+    width: 100px; 
+    height: auto; 
+}
+.org-container p {
+    color: black;
+}
+

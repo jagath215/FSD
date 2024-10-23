@@ -1,0 +1,40 @@
+#early-space-missions {
+    padding: 20px;
+    background-color: #f4f4f400; 
+}
+
+#early-space-missions h2 {
+    font-size: 3em; 
+}
+
+.mission {
+    display: flex;
+    align-items: center; 
+    margin: 20px 0; 
+    background-color: rgba(14, 14, 15, 0); 
+    border-radius: 8px;
+    padding: 20px; 
+}
+
+.mission-content {
+    flex: 1; 
+    padding: 20px; 
+    color: white; 
+    background-color: rgba(14, 14, 15, 0.8); 
+}
+
+.mission-image {
+    width: 200px;
+    height: 200px; 
+    margin-left: 20px; 
+}
+
+.mission:nth-child(even) .mission-image {
+    order: 1; 
+    margin-left: 0; 
+    margin-right: 20px;
+}
+
+.mission:nth-child(odd) .mission-image {
+    order: 2; 
+}

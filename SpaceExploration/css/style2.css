@@ -1,0 +1,19 @@
+
+section{
+    margin-bottom: 20px;
+}
+.overview > h2{
+    font-size: 3em;
+}
+
+.program {
+    margin-bottom: 40px;
+    background-color: rgba(14, 14, 15, 0.8);
+    padding: 20px;
+}
+.program img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
