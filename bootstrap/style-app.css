@@ -1,0 +1,9 @@
+.d-block{
+    height: 400px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
